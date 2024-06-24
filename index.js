@@ -1,0 +1,42 @@
+import {AppRegistry} from 'react-native';
+// import 'react-native-gesture-handler';
+// import App from './App';
+// import App from './components/1_stateProgram';
+// import App from './components/2_propsProgram';
+// import App from './components/3_RNStyles';
+// import App from './components/4_TextInput'
+// import App from './components/5_BasicForm';
+// import App from './components/6_FlatList';
+// import App from './components/7_ListWithMap';
+// import App from './components/8_Grid';
+// import App from './components/9_ComponentFlatList';
+// import App from './components/10_SectionList';
+// import App from './components/11_ClassComponent';
+// import App from './components/12_State_Props_Class';
+// import App from './components/13_useEffect';
+// import App from './components/14_componentDidUpdate';
+// import App from './components/15_ShowHideComponenet';
+// import App from './components/16_Unmount';
+// import App from './components/17_ResponsiveFlex';
+// import App from './components/18_TouchableHighLight';
+// import App from './components/19_StaticRadioButton';
+// import App from './components/20_DynamicRadioButton';
+// import App from './components/21_ActivityIndicator';
+// import App from './components/22_Modal';
+// import App from './components/23_Pressable';
+// import App from './components/24_StatusBar';
+// import App from './components/25_Platform';
+// import App from './components/26_Webview';
+// import App from './components/27_CustomModal';
+// import App from './components/28_StackNavigation';
+// import App from './components/29_BottomTabNavigation';
+// import App from './components/30_TopTabNavigation';
+import App from './components/31_ImagePicker';
+// import App from './components/32_App';
+// import Contact from './components/32_Contacts';
+// import App from './components/33_HeaderComponent';
+// import App from './components/34_App';
+
+import {name as appName} from './app.json';
+
+AppRegistry.registerComponent(appName, () => App);
